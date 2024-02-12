@@ -1,18 +1,27 @@
-import { Divider, Listbox, ListboxItem } from "@nextui-org/react";
+"use client";
+import { Divider } from "@nextui-org/react";
 import Section from "./ui/section";
 import Item from "./ui/item";
 import Link from "next/link";
 import { lusitana } from "./ui/fonts";
 import Projects from "./ui/projects";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
   return (
-    <main className="flex max-w-screen-md mx-auto flex-col mt-20">
+    <main className="flex max-w-screen-md mx-auto flex-col mt-14">
       <div id="skills" className="flex flex-col">
         <Section title="Skills" showLevels="no">
           <Divider className="my-2" />
           <div className="flex">
-            <div className="flex flex-col mr-7">
+            <div className="flex flex-col mr-12">
               <h2 className="my-2">Backend Development</h2>
               <Item
                 name="Golang"
@@ -154,6 +163,14 @@ export default function Home() {
                 level="beginner"
                 logoSrc="/docker.png"
                 alt="docker logo"
+                width={20}
+                height={20}
+              />
+              <Item
+                name="Neovim"
+                level="beginner"
+                logoSrc="/neovim.png"
+                alt="neovim logo"
                 width={20}
                 height={20}
               />

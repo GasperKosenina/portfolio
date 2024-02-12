@@ -23,11 +23,7 @@ export default function Nav() {
           height={30}
         />
       </Link>
-      <Link href="#about">Who Am I?</Link>
-      <Link href="#skills">Skills</Link>
-      <Link href="#experience">Experience</Link>
-      <Link href="#education">Education</Link>
-      <Link href="#projects">Projects</Link>
+      <Link href="mailto:gaso.kosenina@gmail.com">email</Link>
     </>
   );
 }
