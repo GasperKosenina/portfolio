@@ -25,7 +25,7 @@ export default function Section({
             href="https://www.linkedin.com/in/gašper-košenina-101337262/"
           >
             <Logo
-              src="/linkedin-1.png"
+              src="./linkedin-1.png"
               alt="linkedIn logo"
               width={50}
               height={50}
