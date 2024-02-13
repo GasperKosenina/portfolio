@@ -3,8 +3,10 @@
  */
 const nextConfig = {
   output: "export",
-  basePath: "/portfolio",
-
+  // basePath: "/portfolio",
+  images: {
+    unoptimized: true,
+  },
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
 
