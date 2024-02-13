@@ -13,7 +13,7 @@ export default function Skills() {
             <Item
               name="Golang"
               level="advanced"
-              logoSrc="/golang-1.png"
+              logoSrc="./golang-1.png"
               alt="html logo"
               width={20}
               height={20}
@@ -21,7 +21,7 @@ export default function Skills() {
             <Item
               name="Python"
               level="intermediate"
-              logoSrc="/python.png"
+              logoSrc="./python.png"
               alt="python logo"
               width={20}
               height={20}
@@ -30,7 +30,7 @@ export default function Skills() {
             <Item
               name="Java"
               level="beginner"
-              logoSrc="/java.png"
+              logoSrc="./java.png"
               alt="Java Logo"
               width={25}
               height={25}
@@ -38,7 +38,7 @@ export default function Skills() {
             <Item
               name="Type Script"
               level="advanced"
-              logoSrc="/typescript.png"
+              logoSrc="./typescript.png"
               alt="type script logo"
               width={25}
               height={25}
@@ -46,7 +46,7 @@ export default function Skills() {
             <Item
               name="Node Js + Express"
               level="advanced"
-              logoSrc="/node-js-1.png"
+              logoSrc="./node-js-1.png"
               alt="node js logo"
               width={50}
               height={50}
@@ -54,7 +54,7 @@ export default function Skills() {
             <Item
               name="Next JS (Full stack)"
               level="intermediate"
-              logoSrc="/next-js-2.webp"
+              logoSrc="./next-js-2.webp"
               alt="next js logo"
               width={25}
               height={25}
@@ -65,7 +65,7 @@ export default function Skills() {
             <Item
               name="HTML"
               level="advanced"
-              logoSrc="/pngwing.com.png"
+              logoSrc="./pngwing.com.png"
               alt="html logo"
               width={20}
               height={20}
@@ -73,7 +73,7 @@ export default function Skills() {
             <Item
               name="Tailwind CSS"
               level="beginner"
-              logoSrc="/tailwind.png"
+              logoSrc="./tailwind.png"
               alt="tailwind logo"
               width={20}
               height={20}
@@ -81,7 +81,7 @@ export default function Skills() {
             <Item
               name="Java Script"
               level="advanced"
-              logoSrc="/javascript.png"
+              logoSrc="./javascript.png"
               alt="javascript logo"
               width={20}
               height={20}
@@ -89,7 +89,7 @@ export default function Skills() {
             <Item
               name="React"
               level="intermediate"
-              logoSrc="/react.png"
+              logoSrc="./react.png"
               alt="react logo"
               width={20}
               height={20}
@@ -97,7 +97,7 @@ export default function Skills() {
             <Item
               name="Flutter"
               level="beginner"
-              logoSrc="/flutter.png"
+              logoSrc="./flutter.png"
               alt="flutter logo"
               width={20}
               height={20}
@@ -105,7 +105,7 @@ export default function Skills() {
             <Item
               name="React Native"
               level="intermediate"
-              logoSrc="/react-native.png"
+              logoSrc="./react-native.png"
               alt="react native logo"
               width={25}
               height={25}
@@ -116,7 +116,7 @@ export default function Skills() {
             <Item
               name="Git"
               level="intermediate"
-              logoSrc="/git.png"
+              logoSrc="./git.png"
               alt="git logo"
               width={20}
               height={20}
@@ -124,7 +124,7 @@ export default function Skills() {
             <Item
               name="MongoDB"
               level="intermediate"
-              logoSrc="/mongodb.png"
+              logoSrc="./mongodb.png"
               alt="mongodb logo"
               width={25}
               height={25}
@@ -132,7 +132,7 @@ export default function Skills() {
             <Item
               name="MySQL"
               level="advanced"
-              logoSrc="/mysql.png"
+              logoSrc="./mysql.png"
               alt="mysql logo"
               width={20}
               height={20}
@@ -140,7 +140,7 @@ export default function Skills() {
             <Item
               name="PostgreSQL"
               level="advanced"
-              logoSrc="/postgresql.png"
+              logoSrc="./postgresql.png"
               alt="postgresql logo"
               width={25}
               height={25}
@@ -148,7 +148,7 @@ export default function Skills() {
             <Item
               name="Docker"
               level="beginner"
-              logoSrc="/docker.png"
+              logoSrc="./docker.png"
               alt="docker logo"
               width={20}
               height={20}
@@ -156,7 +156,7 @@ export default function Skills() {
             <Item
               name="Neovim"
               level="beginner"
-              logoSrc="/neovim.png"
+              logoSrc="./neovim.png"
               alt="neovim logo"
               width={20}
               height={20}
