@@ -6,7 +6,7 @@ export default function Nav() {
     <>
       <Link target="_blank" href="https://github.com/GasperKosenina">
         <Logo
-          src="/github-mark/github-mark-white.png"
+          src="./github-mark/github-mark-white.png"
           alt="github logo"
           width={30}
           height={30}
