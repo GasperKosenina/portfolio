@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={`${inter.className} antialiased`}>
         <Providers>
-          <div className="border-y border-x rounded flex justify-center gap-9 items-center mx-auto max-w-screen-md m-4 h-14 bg-black sticky top-0">
+          <div className="border rounded flex justify-center gap-9 items-center mx-auto max-w-screen-md m-4 h-14 bg-black sticky top-0">
             <Nav />
           </div>
           {children}
