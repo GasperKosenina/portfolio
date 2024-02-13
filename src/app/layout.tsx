@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/img/favicon.ico" sizes="any" />
+        <link rel="icon" href="./img/favicon.ico" sizes="any" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Providers>
