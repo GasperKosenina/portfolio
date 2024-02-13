@@ -7,8 +7,8 @@ export default function AboutMe() {
       <Divider className="my-2" />
 
       <p className="">
-        Hey there! My name is <strong>Gašper</strong>, and I&apos;m a passionate
-        software engineer.
+        Hey there! My name is <strong>Gašper</strong>, and I&apos;m a software
+        engineer.
         <br /> I find joy in <strong>coding</strong> and bringing my ideas to
         life through personal projects.
         <br /> As a fast learner, I&apos;m always eager to dive into new
