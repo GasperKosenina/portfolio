@@ -6,7 +6,7 @@ export default function AboutMe() {
     <Section title="Who Am I?" showLevels="no" showLinkedIn="yes">
       <Divider className="my-2" />
 
-      <p className="">
+      <p className="text-xs md:text-sm lg:text-base ">
         Hey there! My name is <strong>Gašper</strong>, and I&apos;m a software
         engineer.
         <br /> I find joy in <strong>coding</strong> and bringing my ideas to

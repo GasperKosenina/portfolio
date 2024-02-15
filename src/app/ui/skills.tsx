@@ -7,8 +7,8 @@ export default function Skills() {
     <div id="skills" className="flex flex-col">
       <Section title="Skills" showLevels="no">
         <Divider className="my-2" />
-        <div className="flex">
-          <div className="flex flex-col mr-12">
+        <div className="flex flex-wrap">
+          <div className="flex flex-col w-full md:w-1/3">
             <h2 className="my-2 font-bold">Backend Development</h2>
             <Item
               name="Golang"
@@ -60,7 +60,7 @@ export default function Skills() {
               height={25}
             />
           </div>
-          <div className="flex flex-col mr-unit-18">
+          <div className="flex flex-col w-full md:w-1/3">
             <h2 className="my-2 font-bold">Frontend Development</h2>
             <Item
               name="HTML"
@@ -111,7 +111,7 @@ export default function Skills() {
               height={25}
             />
           </div>
-          <div className="flex flex-col mr-4">
+          <div className="flex flex-col w-full md:w-1/3 ">
             <h2 className="my-2 font-bold">Other Technologies</h2>
             <Item
               name="Git"

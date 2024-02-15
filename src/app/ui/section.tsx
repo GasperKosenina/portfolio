@@ -16,7 +16,7 @@ export default function Section({
   showLinkedIn,
 }: SectionProps) {
   return (
-    <div className="flex flex-col mb-8">
+    <div className="flex flex-col mb-8 ">
       <div className="flex items-center mb-2">
         <h1 className="font-mono text-xl">{title}</h1>
         {showLinkedIn === "yes" && (
