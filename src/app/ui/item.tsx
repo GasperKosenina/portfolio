@@ -31,14 +31,7 @@ export default function Item({
     <div className="flex items-center my-2">
       {/* <span className={`rounded-full h-6 w-6 ${levelDot}  mr-2`}></span> */}
       <span className="mr-2">{name}</span>
-      <Image
-        src={logoSrc}
-        alt={alt}
-        width={width}
-        height={height}
-        placeholder="blur"
-        blurDataURL="/blur.png"
-      />
+      <Image src={logoSrc} alt={alt} width={width} height={height} />
     </div>
   );
 }
