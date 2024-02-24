@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div id="projects" className="flex flex-wrap justify-center">
       <Section title="Projects" showLevels="no">
-        <Divider className="mt-4 mb-10" />
+        <Divider className="mb-10 mt-4" />
         <div className="flex flex-wrap gap-4">
           <ProjectCard
             githubLink="https://github.com/BarbaraFerlinc/ReCloth"
@@ -25,6 +25,12 @@ export default function Projects() {
             title="Emoji-app"
             description="Emoji app"
             emoji="😄"
+          />
+          <ProjectCard
+            githubLink="https://github.com/GasperKosenina/eZdravnik"
+            title="eZdravnik"
+            description="Healtecare AI Assistant"
+            emoji="🩺"
           />
         </div>
       </Section>
